@@ -75,6 +75,9 @@ ul#menu li a:focus{
 .dest-2 h5{
 	margin-bottom: 10px;
 }
+.dest-2 p{
+	margin-bottom: 21px;
+}
 .dest-2 img, .dest-2 a{
 	vertical-align: middle;
 	display: inline-block;
@@ -94,7 +97,7 @@ ul#menu li a:focus{
 #politicas-calidad{
 	margin-top: 50px;
 }
-#politicas-calidad h2{
+#politicas-calidad h2, .vision-mision h3{
 	font-size: 24px;
 	margin-bottom: 5px;
 	color: #00577a;
@@ -104,6 +107,13 @@ ul#menu li a:focus{
 	background-repeat: no-repeat;
 	height: 14px;
 	margin-bottom: -20px;
+}
+.line-niveles2{
+	background: url("images/line-niveles2.png");	
+	background-repeat: no-repeat;
+	height: 14px;
+	position: relative;
+	
 }
 #politicas-calidad p{
 	color: #9f9fa2;
@@ -158,4 +168,26 @@ ul.calidad li img{
 #historia p{
 	font-size: 14px;
 	font-weight: 300;
+}
+.vision-mision{
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+.vision-mision p{
+	margin-top: 30px;
+	color: #9f9fa2;
+	line-height: 16px;
+	font-size: 14px;
+	font-weight: 300;
+}
+footer{
+	text-align: center;
+	color: #ffffff;
+	background: #196366;
+	height: auto;
+}
+footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
 }
