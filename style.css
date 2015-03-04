@@ -91,3 +91,71 @@ ul#menu li a:focus{
 	-ms-border-radius: 0px 7px 7px 0px;
 	-webkit-border-radius: 0px 7px 7px 0px;
 }
+#politicas-calidad{
+	margin-top: 50px;
+}
+#politicas-calidad h2{
+	font-size: 24px;
+	margin-bottom: 5px;
+	color: #00577a;
+}
+.line-niveles{
+	background: url("images/line-niveles.png");	
+	background-repeat: no-repeat;
+	height: 14px;
+	margin-bottom: -20px;
+}
+#politicas-calidad p{
+	color: #9f9fa2;
+	line-height: 16px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+	
+ul.calidad{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+ul.calidad li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	list-style: none;
+}
+ul.calidad li h3{
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: 600;
+	color: #009ada;
+
+}
+ul.calidad li img{
+	border: 3px solid #80ad38;
+	border-radius: 90px;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3), 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.simbolo{
+	text-align: center;
+}
+.simbolo img{
+	margin-top: -50px;
+}
+#historia{
+	margin-top: 80px;
+	background: #009ada;
+	height: auto;
+	color: #ffffff;
+	text-align: center;
+}
+#historia h2{
+	font-size: 28px;
+	margin: 30px 0px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+#historia p{
+	font-size: 14px;
+	font-weight: 300;
+}
