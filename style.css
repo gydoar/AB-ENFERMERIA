@@ -181,17 +181,84 @@ ul.calidad li img{
 	font-weight: 300;
 }
 footer{
+	padding: 20px 0px;
 	text-align: center;
 	color: #ffffff;
 	background: #196366;
 	height: auto;
 }
+footer ul{
+	margin-bottom: 0px;
+}
 footer ul li{
 	list-style: none;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 10px;
+	font-size: 14px;
+	font-weight: 300;
+}
+footer ul li,footer ul li img{
+	vertical-align: text-bottom;
+}
+ul#social li img{
+	border-radius: 128px;
+	border: 2px solid #ffffff;
+}
+ul#social li:first-child img{ 
+	transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	background: #3B5998;
+	
+}
+ul#social li:first-child img:hover{ 
+	transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	background: #4D75C8;
+	
+}
+ul#social li:nth-child(2) img{ 
+	transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	background: #55ACEE;
+	
 }
 
+ul#social li:nth-child(2) img:hover{
+	background: #3D7FB0 ;
+	transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+}
+
+#copyright{
+	background: #00403e;
+	padding: 10px 0px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+#copyright p{
+	margin-bottom: 0px;
+}
+#copyright a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#copyright a:hover{
+	color: #95AFBA;
+}
+#copyright p, #copyright p img{
+	vertical-align: middle;
+}
 /* #Media Queries
 ================================================== */
 
@@ -206,14 +273,57 @@ footer ul li{
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		#historia{
-			background: green;
-		}
+		
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#historia{
-			background: peru;
+		ul#menu{
+			margin-top: 0px;
+			
+		}
+		ul#menu li{
+			margin-left: 7px;
+			font-size: 14px;
+			
+		}
+		
+		#logo {
+			text-align: center;
+		}
+		#logo img{
+			
+			width: 50%;
+		}
+		#owl-demo .item img{
+			margin-top: 30px;
+			width: 600px;
+			height: auto;
+		}
+		#destacados{
+			text-align: center;
+			margin-top: 150px;
+		}
+		.dest-1, .dest-2, .dest-3{
+			margin: 0px 0px 5px 0px;
+		}
+		.dest-1{
+			text-align: left;
+			border-radius: 7px 7px 0px 0px;
+			-o-border-radius: 7px 7px 0px 0px;
+			-moz-border-radius: 7px 7px 0px 0px;
+			-ms-border-radius: 7px 7px 0px 0px;
+			-webkit-border-radius: 7px 7px 0px 0px;
+		}
+		.dest-3{
+			text-align: right;
+			border-radius: 0px 0px 7px 7px;
+			-o-border-radius: 0px 0px 7px 7px;
+			-moz-border-radius: 0px 0px 7px 7px;
+			-ms-border-radius: 0px 0px 7px 7px;
+			-webkit-border-radius: 0px 0px 7px 7px;
+		}
+		ul#social{
+			margin-top: 10px;
 		}
 	}
